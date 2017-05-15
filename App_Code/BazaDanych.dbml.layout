@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="BazaDanych">
+  <DataContextMoniker Name="/BazaDanychDataContext" />
+  <nestedChildShapes>
+    <classShape Id="3710f53d-8044-4938-b630-ece7e88eb5a4" absoluteBounds="0.5, 0.5, 2, 2.9247054036458331">
+      <DataClassMoniker Name="/BazaDanychDataContext/Uzytkownik" />
+      <nestedChildShapes>
+        <elementListCompartment Id="45158850-4abf-4fcd-ad29-5f7dfda2ee7c" absoluteBounds="0.515, 0.96, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="042822ec-6965-4d74-835e-0a3e8f3435f2" absoluteBounds="0.5, 3.5, 2, 1.3862939453125">
+      <DataClassMoniker Name="/BazaDanychDataContext/TabDosw" />
+      <nestedChildShapes>
+        <elementListCompartment Id="97a765ae-d9da-44ac-ba7c-fa3106ef71a8" absoluteBounds="0.51499999999999968, 3.96, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="46b04d45-d52b-4948-9c3d-4781c8353ed6" absoluteBounds="3.5, 0.5, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/BazaDanychDataContext/Przeciwnik" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a09459c5-fb85-4636-897a-a6d256c36f6f" absoluteBounds="3.5149999999999997, 0.96, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

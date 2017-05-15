@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="BazaDanych" Class="BazaDanychDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=.\SQLEXPRESS;AttachDbFilename=|DataDirectory|\BazaDanych.mdf;Integrated Security=True;User Instance=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="BazaDanychConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Uzytkownik" Member="Uzytkowniks">
+    <Type Name="Uzytkownik">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Login" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Haslo" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Poziom" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Doswiadczenie" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Sila" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Szybkosc" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Wytrzymalosc" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Zloto" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CzyAktywny" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TabDosw" Member="TabDosws">
+    <Type Name="TabDosw">
+      <Column Name="Poziom" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="MinDosw" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MaxDosw" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Przeciwnik" Member="Przeciwniks">
+    <Type Name="Przeciwnik">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Nazwa" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Poziom" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="DaDosw" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="DaZlot" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Sila" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Szybkosc" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Wytrzymalosc" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

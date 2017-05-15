@@ -1,0 +1,124 @@
+﻿body 
+{
+    background: #b6b7bc;
+    font-size: .80em;
+    font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: #696969;
+}
+header
+{
+}
+h1 
+{
+
+    text-align: center;
+    font-size: xx-large;
+    color: Red;
+    background-color: #3e992c;
+    text-transform: none;
+    margin-bottom: 0px;
+    height: 57px;
+}
+h2
+    {
+    text-align: right;
+    font-size: small;
+    color: White;
+    
+    }
+ h3
+ {
+     margin-left: auto;
+     }
+
+.grafika { border-width: 2px;
+border-style: solid;
+border-color: Green; 
+margin: 0px;
+}
+/* TEST
+
+*/
+
+
+/* Elementy strony 
+----------------------------------------------------------*/
+.page
+{
+    width: 965px;
+    margin: 20px auto 0px auto;
+}
+
+.header
+{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    background: #3e992c;
+    width: 100%;
+    
+}
+.footer
+{
+    
+    text-align: left;
+    font-size: small;
+    color: Black;
+    background-color: #3e992c;
+    text-transform: none;
+    margin: 20px auto 0px auto;
+    max-height: 300px;
+    width: 965px;
+}
+
+
+
+/* Wygląd Menu 
+----------------------------------------------------------*/
+
+div.hideSkiplink
+{
+    background-color:#1d600f;
+    width:100%;
+}
+
+div.menu
+{
+    padding: 4px 0px 4px 8px;
+}
+
+div.menu ul
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+}
+
+div.menu ul li a, div.menu ul li a:visited
+{
+    background-color: #3e8431;
+    border: 5px #3e992c solid;
+    color: #dde4ec;
+    display: block;
+    line-height: 1.35em;
+    padding: 8px 70px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+div.menu ul li a:hover
+{
+    background-color: #bfcbd6;
+    color: #465c71;
+    text-decoration: none;
+}
+
+div.menu ul li a:active
+{
+    background-color: #1f65a8;
+    color: #cfdbe6;
+    text-decoration: none;
+}
